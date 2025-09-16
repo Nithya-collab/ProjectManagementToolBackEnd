@@ -43,7 +43,7 @@ public class AppConfig {
 	public CorsConfigurationSource corsConfigurationSource() {
 	    CorsConfiguration config = new CorsConfiguration();
 //	    config.addAllowedOrigin("http://localhost:5173"); // frontend origin
-	    config.addAllowedOrigin("https://projectmanagementtoolfrontend-production.up.railway.app");
+	    config.addAllowedOrigin("https://projectmanagementtoolfrontend-production-aa23.up.railway.app");
 	    config.addAllowedMethod("*");
 	    config.addAllowedHeader("*");
 
