@@ -42,7 +42,8 @@ public class AppConfig {
 	@Bean
 	public CorsConfigurationSource corsConfigurationSource() {
 	    CorsConfiguration config = new CorsConfiguration();
-	    config.addAllowedOrigin("http://localhost:5173"); // frontend origin
+//	    config.addAllowedOrigin("http://localhost:5173"); // frontend origin
+	    config.addAllowedOrigin("https://projectmanagementtoolfrontend-production.up.railway.app");
 	    config.addAllowedMethod("*");
 	    config.addAllowedHeader("*");
 
