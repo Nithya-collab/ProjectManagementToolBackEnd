@@ -8,13 +8,13 @@ A production-style **REST API** for a full-featured Project Management Tool, bui
 
 ##  Features
 
-- ** Secure Authentication & Authorization** — Stateless JWT-based auth with Spring Security, protecting all API routes and supporting role-based access control (Admin / Manager / Member).
-- ** Project & Task Management** — Create, assign, update, and track projects and tasks through their full lifecycle (To Do → In Progress → Done), enabling Kanban-style workflows.
-- ** Team & Role Management** — Invite members, assign roles, and manage permissions across projects and teams.
-- ** Subscription & Payments** — Integrated **Razorpay** payment gateway for handling premium plans / subscription-based access.
-- ** Automated Email Notifications** — Transactional emails (invites, task updates, payment confirmations) powered by `spring-boot-starter-mail`.
-- ** Reporting Ready** — Relational schema designed to support dashboards and progress reports on top of project/task data.
-- ** Clean, Layered Architecture** — Controller → Service → Repository pattern with JPA/Hibernate for maintainable, testable code.
+-  Secure Authentication & Authorization** — Stateless JWT-based auth with Spring Security, protecting all API routes and supporting role-based access control (Admin / Manager / Member).
+-  Project & Task Management** — Create, assign, update, and track projects and tasks through their full lifecycle (To Do → In Progress → Done), enabling Kanban-style workflows.
+-  Team & Role Management** — Invite members, assign roles, and manage permissions across projects and teams.
+-  Subscription & Payments** — Integrated **Razorpay** payment gateway for handling premium plans / subscription-based access.
+-  Automated Email Notifications** — Transactional emails (invites, task updates, payment confirmations) powered by `spring-boot-starter-mail`.
+-  Reporting Ready** — Relational schema designed to support dashboards and progress reports on top of project/task data.
+-  Clean, Layered Architecture** — Controller → Service → Repository pattern with JPA/Hibernate for maintainable, testable code.
 
 ---
 
@@ -41,10 +41,10 @@ A production-style **REST API** for a full-featured Project Management Tool, bui
 ProjectManagementToolBackEnd/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/projectManagementTool/   # Controllers, Services, Repositories, Entities, Security config
+│   │   ├── java/com/projectManagementTool/  
 │   │   └── resources/
-│   │       └── application.properties        # App & DB configuration
-│   └── test/                                  # Unit & integration tests
+│   │       └── application.properties        
+│   └── test/                                  
 ├── .mvn/wrapper/
 ├── mvnw / mvnw.cmd
 ├── pom.xml
