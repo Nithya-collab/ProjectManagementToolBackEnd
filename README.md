@@ -1,24 +1,24 @@
-# 📋 Project Management Tool — Backend
+#  Project Management Tool — Backend
 
 A production-style **REST API** for a full-featured Project Management Tool, built with **Spring Boot 3** and **Java 21**. It powers project & task management, secure authentication, team collaboration, subscription payments, and automated email notifications.
 
-> 🔗 Frontend repo: [ProjectManagementToolFrontEnd](https://github.com/Nithya-collab/ProjectManagementToolFrontEnd)
+>  Frontend repo: [ProjectManagementToolFrontEnd](https://github.com/Nithya-collab/ProjectManagementToolFrontEnd)
 
 ---
 
-## 🚀 Features
+##  Features
 
-- **🔐 Secure Authentication & Authorization** — Stateless JWT-based auth with Spring Security, protecting all API routes and supporting role-based access control (Admin / Manager / Member).
-- **📁 Project & Task Management** — Create, assign, update, and track projects and tasks through their full lifecycle (To Do → In Progress → Done), enabling Kanban-style workflows.
-- **👥 Team & Role Management** — Invite members, assign roles, and manage permissions across projects and teams.
-- **💳 Subscription & Payments** — Integrated **Razorpay** payment gateway for handling premium plans / subscription-based access.
-- **📧 Automated Email Notifications** — Transactional emails (invites, task updates, payment confirmations) powered by `spring-boot-starter-mail`.
-- **📊 Reporting Ready** — Relational schema designed to support dashboards and progress reports on top of project/task data.
-- **⚙️ Clean, Layered Architecture** — Controller → Service → Repository pattern with JPA/Hibernate for maintainable, testable code.
+- ** Secure Authentication & Authorization** — Stateless JWT-based auth with Spring Security, protecting all API routes and supporting role-based access control (Admin / Manager / Member).
+- ** Project & Task Management** — Create, assign, update, and track projects and tasks through their full lifecycle (To Do → In Progress → Done), enabling Kanban-style workflows.
+- ** Team & Role Management** — Invite members, assign roles, and manage permissions across projects and teams.
+- ** Subscription & Payments** — Integrated **Razorpay** payment gateway for handling premium plans / subscription-based access.
+- ** Automated Email Notifications** — Transactional emails (invites, task updates, payment confirmations) powered by `spring-boot-starter-mail`.
+- ** Reporting Ready** — Relational schema designed to support dashboards and progress reports on top of project/task data.
+- ** Clean, Layered Architecture** — Controller → Service → Repository pattern with JPA/Hibernate for maintainable, testable code.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer            | Technology                                      |
 |------------------|--------------------------------------------------|
@@ -35,7 +35,7 @@ A production-style **REST API** for a full-featured Project Management Tool, bui
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ProjectManagementToolBackEnd/
@@ -53,7 +53,7 @@ ProjectManagementToolBackEnd/
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -96,7 +96,7 @@ razorpay.key.id=YOUR_RAZORPAY_KEY_ID
 razorpay.key.secret=YOUR_RAZORPAY_KEY_SECRET
 ```
 
-> ⚠️ Never commit real secrets. Use environment variables or a `.env`/secrets manager in production.
+>  Never commit real secrets. Use environment variables or a `.env`/secrets manager in production.
 
 ### 3. Run the application
 
@@ -118,7 +118,7 @@ The API will start on `http://localhost:8080` by default.
 
 ---
 
-## 🔑 Authentication Flow
+##  Authentication Flow
 
 1. User registers / logs in → server validates credentials.
 2. Server issues a signed **JWT** on successful login.
@@ -127,7 +127,7 @@ The API will start on `http://localhost:8080` by default.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -139,12 +139,12 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available for learning and portfolio purposes.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Nithya** — [GitHub](https://github.com/Nithya-collab)
